@@ -1,0 +1,35 @@
+.cpd-dropdowns-wrapper {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.cpd-dropdown-group {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.cpd-dropdown-group label {
+    display: block;
+    margin-bottom: 0.25em;
+    font-weight: 600;
+    background: #fff;
+    color: #222;
+    padding: 0.5em 0.75em;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    border: 1px solid #e0e0e0;
+}
+
+.cpd-dropdown-group select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+/* Hide WooCommerce's default price */
+.single-product .summary .price { display: none !important; }
